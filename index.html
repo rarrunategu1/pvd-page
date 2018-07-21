@@ -4,6 +4,7 @@
   
         <title>PVD Page</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
 
     </head>
     
@@ -25,20 +26,42 @@
             </div>
         </div>
         </nav>
+       
         <nav class= "nav nav-fill bg-grey">
-            <a href="http://www.providenceri.gov/#" class="nav-item nav-link">CITY HALL</a>
-            <a href="http://www.providenceri.gov/#" class="nav-item nav-link">DOING BUSINESS</a>
+            <div class="dropdown">
+               <button class="dropbtn">CITY HALL</button>
+            <div class="dropdown-content">
+                <a href="http://www.providenceri.gov/i-want-to/">I Want to...</a>
+                <a href="http://www.providenceri.gov/mayors-office/">Mayor's office</a>
+                <a href="http://www.providenceri.gov/departments/">Departments</a>
+                <a href="http://council.providenceri.com/">City Council</a>
+                <a href="https://library.municode.com/ri/providence/codes/code_of_ordinances">Code of Ordinances</a>
+            </div>
+            </div>
+            <div class="dropdown">
+               <button class="dropbtn">DOING BUSINESS</button>
+            <div class="dropdown-content">
+                <a href="http://www.providenceeconomicdevelopment.net/business-portal/index.php">Starting a Business</a>
+                <a href="http://www.providenceri.gov/inspection-standards/">Construction</a>
+                <a href="http://www.providenceri.gov/board-of-licenses/">Running a Business</a>
+                <a href="http://www.providenceri.gov/ethics/">Ethics</a>
+            </div>
+            </div>
+        
             <a href="http://www.providenceri.gov/event/" class="nav-item nav-link">EVENTS</a>
             <a href="http://www.providenceri.gov/news-events/" class="nav-item nav-link">NEWS</a>
             <a href="http://www.providenceri.gov/pvd-311/" class="nav-item nav-link">PVD 311</a>
             <a href="https://www.goprovidence.com/" class="nav-item nav-link">EXPLORE</a>
         </nav>
+      
         <section class="home-hero" style="background-image: url(http://bit.ly/pvdskylines); height: 300px; background-size: cover; background-position-x: 50%; background-position-y: center;"></section>
+    
         <div class="container">
             <div class="row" style="margin-top: 25px;">
                 <div class="col-sm">
                     <h4 style="text-align: center;">What Can We Help You With?</h4>
                     <button type="button" class="btn btn-lg" style="width: 100%; background-color: orange; border: none; border-radius: none;">I WANT TO...</button>
+                  
                     <div class="card" style="background-color: #005d73; color: white;">
                         <div class="card-body">
                             <h2 class="card-title" style="text-align: center;">Top Requests</h2>
@@ -54,7 +77,7 @@
                                 <a style="color: white;"href="http://www.providenceri.gov/purchasing/how-to-submit-a-bid/">How to Find RFP's + Submit a Bid</a>
                             </p>    
                         </div>   
-                    </div>    
+                    </div>   
                 </div>
                 <div class="col-sm">
                     <div class="card">
